@@ -3,6 +3,8 @@
 #include "math.h"
 #include "stdlib.h"
 
+// GitHub: https://github.com/kbukowskijava/oscylator_PDSP.git
+
 typedef struct{
     float amplituda; // wartość rzeczywista w mV w zakresie od 0 do 1650
     float czestotliwosc; // wartość rzeczywista w Hz w zakresie od 0 do Fs/2 (Fs - częstotliwość próbkowania)
